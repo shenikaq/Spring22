@@ -21,4 +21,8 @@ public class AnimalsCage {
         System.out.println(timer.getTime());
         System.out.println("________________________");
     }
+
+    public Timer getTimer() {
+        return timer;
+    }
 }
